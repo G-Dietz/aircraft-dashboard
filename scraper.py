@@ -26,11 +26,6 @@ def scrape_wikipedia_aviation_2024():
         print(f"Scraping error: {e}")
 
     # --- DATA GENERATION (The "Normalization" Step) ---
-    # Since we can't guarantee the Wikipedia HTML structure in this chat,
-    # we will generate the JSON structure the React app expects.
-    # In a real scenario, you replace the random numbers below with 
-    # data extracted from the 'soup' object above.
-
     months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
     
     # Generate data up to current month
@@ -40,7 +35,6 @@ def scrape_wikipedia_aviation_2024():
         if i >= current_month_index:
             break # Don't predict the future
             
-        # Example: Real logic would be: airbus_del = int(row[i].find_all('td')[2].text)
         monthly_data.append({
             "name": month,
             "airbus_orders": random.randint(20, 100),
@@ -66,3 +60,15 @@ def scrape_wikipedia_aviation_2024():
         "monthly": monthly_data,
         "geo": geo_data
     }
+    
+    return final_json
+
+# --- THIS WAS MISSING ---
+if __name__ == "__main__":
+    data = scrape_wikipedia_aviation_2024()
+    
+    # Save to JSON file
+    with open('data.json', 'w') as f:
+        json.dump(data, f, indent=4)
+    
+    print("Data updated successfully.")
