@@ -1,0 +1,42 @@
+name: Daily Aircraft Data Scrape
+
+# Trigger: Run every day at 00:00 UTC, or manually via button
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 1. Check out the repository code
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      # 2. Install Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      # 3. Install dependencies (requests, beautifulsoup, etc.)
+      - name: Install dependencies
+        run: |
+          pip install requests pandas beautifulsoup4 openpyxl
+
+      # 4. Run the scraper script
+      - name: Run Scraper
+        run: python scraper.py
+
+      # 5. Commit and Push the new data.json if it changed
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add data.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update aircraft data" && git push)
