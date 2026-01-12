@@ -1,14 +1,14 @@
 {
-    "lastUpdated": "2026-01-11 01:14:45",
+    "lastUpdated": "2026-01-12 01:11:06",
     "monthly": [
         {
             "name": "Jan",
-            "airbus_orders": 80,
-            "airbus_deliveries": 48,
-            "boeing_orders": 11,
-            "boeing_deliveries": 30,
-            "embraer_orders": 9,
-            "embraer_deliveries": 9
+            "airbus_orders": 31,
+            "airbus_deliveries": 53,
+            "boeing_orders": 47,
+            "boeing_deliveries": 21,
+            "embraer_orders": 16,
+            "embraer_deliveries": 10
         }
     ],
     "geo": [
