@@ -1,32 +1,41 @@
 {
-    "lastUpdated": "2026-03-31 01:45:12",
+    "lastUpdated": "2026-04-01 01:53:17",
     "monthly": [
         {
             "name": "Jan",
-            "airbus_orders": 72,
-            "airbus_deliveries": 67,
-            "boeing_orders": 41,
-            "boeing_deliveries": 20,
-            "embraer_orders": 6,
-            "embraer_deliveries": 9
+            "airbus_orders": 95,
+            "airbus_deliveries": 58,
+            "boeing_orders": 34,
+            "boeing_deliveries": 35,
+            "embraer_orders": 14,
+            "embraer_deliveries": 15
         },
         {
             "name": "Feb",
-            "airbus_orders": 81,
-            "airbus_deliveries": 51,
-            "boeing_orders": 10,
-            "boeing_deliveries": 29,
-            "embraer_orders": 14,
-            "embraer_deliveries": 11
+            "airbus_orders": 58,
+            "airbus_deliveries": 60,
+            "boeing_orders": 13,
+            "boeing_deliveries": 30,
+            "embraer_orders": 17,
+            "embraer_deliveries": 14
         },
         {
             "name": "Mar",
-            "airbus_orders": 95,
-            "airbus_deliveries": 45,
-            "boeing_orders": 22,
-            "boeing_deliveries": 35,
-            "embraer_orders": 14,
-            "embraer_deliveries": 5
+            "airbus_orders": 52,
+            "airbus_deliveries": 57,
+            "boeing_orders": 10,
+            "boeing_deliveries": 22,
+            "embraer_orders": 17,
+            "embraer_deliveries": 7
+        },
+        {
+            "name": "Apr",
+            "airbus_orders": 79,
+            "airbus_deliveries": 53,
+            "boeing_orders": 35,
+            "boeing_deliveries": 33,
+            "embraer_orders": 18,
+            "embraer_deliveries": 13
         }
     ],
     "geo": [
