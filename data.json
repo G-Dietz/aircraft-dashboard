@@ -1,41 +1,41 @@
 {
-    "lastUpdated": "2026-04-06 01:49:10",
+    "lastUpdated": "2026-04-07 01:46:19",
     "monthly": [
         {
             "name": "Jan",
-            "airbus_orders": 93,
-            "airbus_deliveries": 48,
-            "boeing_orders": 17,
-            "boeing_deliveries": 30,
-            "embraer_orders": 6,
-            "embraer_deliveries": 5
+            "airbus_orders": 61,
+            "airbus_deliveries": 42,
+            "boeing_orders": 38,
+            "boeing_deliveries": 24,
+            "embraer_orders": 13,
+            "embraer_deliveries": 13
         },
         {
             "name": "Feb",
-            "airbus_orders": 78,
-            "airbus_deliveries": 57,
-            "boeing_orders": 18,
-            "boeing_deliveries": 24,
-            "embraer_orders": 7,
-            "embraer_deliveries": 11
-        },
-        {
-            "name": "Mar",
-            "airbus_orders": 98,
-            "airbus_deliveries": 49,
-            "boeing_orders": 23,
-            "boeing_deliveries": 22,
+            "airbus_orders": 68,
+            "airbus_deliveries": 41,
+            "boeing_orders": 19,
+            "boeing_deliveries": 30,
             "embraer_orders": 18,
             "embraer_deliveries": 13
         },
         {
+            "name": "Mar",
+            "airbus_orders": 26,
+            "airbus_deliveries": 50,
+            "boeing_orders": 13,
+            "boeing_deliveries": 32,
+            "embraer_orders": 13,
+            "embraer_deliveries": 15
+        },
+        {
             "name": "Apr",
-            "airbus_orders": 48,
-            "airbus_deliveries": 65,
-            "boeing_orders": 41,
-            "boeing_deliveries": 30,
-            "embraer_orders": 12,
-            "embraer_deliveries": 13
+            "airbus_orders": 34,
+            "airbus_deliveries": 62,
+            "boeing_orders": 36,
+            "boeing_deliveries": 38,
+            "embraer_orders": 9,
+            "embraer_deliveries": 8
         }
     ],
     "geo": [
