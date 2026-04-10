@@ -1,41 +1,41 @@
 {
-    "lastUpdated": "2026-04-09 01:26:13",
+    "lastUpdated": "2026-04-10 01:50:14",
     "monthly": [
         {
             "name": "Jan",
-            "airbus_orders": 65,
-            "airbus_deliveries": 65,
-            "boeing_orders": 50,
-            "boeing_deliveries": 31,
-            "embraer_orders": 12,
-            "embraer_deliveries": 7
+            "airbus_orders": 48,
+            "airbus_deliveries": 61,
+            "boeing_orders": 48,
+            "boeing_deliveries": 30,
+            "embraer_orders": 9,
+            "embraer_deliveries": 10
         },
         {
             "name": "Feb",
-            "airbus_orders": 97,
-            "airbus_deliveries": 57,
-            "boeing_orders": 26,
-            "boeing_deliveries": 35,
-            "embraer_orders": 10,
-            "embraer_deliveries": 12
+            "airbus_orders": 25,
+            "airbus_deliveries": 64,
+            "boeing_orders": 28,
+            "boeing_deliveries": 33,
+            "embraer_orders": 20,
+            "embraer_deliveries": 13
         },
         {
             "name": "Mar",
-            "airbus_orders": 52,
-            "airbus_deliveries": 55,
-            "boeing_orders": 39,
-            "boeing_deliveries": 20,
-            "embraer_orders": 6,
-            "embraer_deliveries": 15
+            "airbus_orders": 100,
+            "airbus_deliveries": 53,
+            "boeing_orders": 40,
+            "boeing_deliveries": 21,
+            "embraer_orders": 14,
+            "embraer_deliveries": 7
         },
         {
             "name": "Apr",
-            "airbus_orders": 64,
-            "airbus_deliveries": 55,
-            "boeing_orders": 44,
-            "boeing_deliveries": 40,
-            "embraer_orders": 10,
-            "embraer_deliveries": 9
+            "airbus_orders": 57,
+            "airbus_deliveries": 40,
+            "boeing_orders": 10,
+            "boeing_deliveries": 24,
+            "embraer_orders": 14,
+            "embraer_deliveries": 14
         }
     ],
     "geo": [
