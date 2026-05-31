@@ -1,50 +1,50 @@
 {
-    "lastUpdated": "2026-05-30 02:26:31",
+    "lastUpdated": "2026-05-31 02:43:04",
     "monthly": [
         {
             "name": "Jan",
-            "airbus_orders": 86,
-            "airbus_deliveries": 41,
-            "boeing_orders": 24,
-            "boeing_deliveries": 27,
-            "embraer_orders": 14,
-            "embraer_deliveries": 15
-        },
-        {
-            "name": "Feb",
-            "airbus_orders": 63,
-            "airbus_deliveries": 52,
-            "boeing_orders": 29,
-            "boeing_deliveries": 34,
-            "embraer_orders": 8,
-            "embraer_deliveries": 8
-        },
-        {
-            "name": "Mar",
-            "airbus_orders": 37,
-            "airbus_deliveries": 61,
-            "boeing_orders": 39,
-            "boeing_deliveries": 32,
-            "embraer_orders": 12,
+            "airbus_orders": 77,
+            "airbus_deliveries": 62,
+            "boeing_orders": 44,
+            "boeing_deliveries": 22,
+            "embraer_orders": 7,
             "embraer_deliveries": 9
         },
         {
+            "name": "Feb",
+            "airbus_orders": 31,
+            "airbus_deliveries": 55,
+            "boeing_orders": 20,
+            "boeing_deliveries": 39,
+            "embraer_orders": 20,
+            "embraer_deliveries": 12
+        },
+        {
+            "name": "Mar",
+            "airbus_orders": 31,
+            "airbus_deliveries": 47,
+            "boeing_orders": 29,
+            "boeing_deliveries": 30,
+            "embraer_orders": 20,
+            "embraer_deliveries": 12
+        },
+        {
             "name": "Apr",
-            "airbus_orders": 97,
-            "airbus_deliveries": 53,
-            "boeing_orders": 17,
-            "boeing_deliveries": 25,
-            "embraer_orders": 7,
+            "airbus_orders": 45,
+            "airbus_deliveries": 69,
+            "boeing_orders": 42,
+            "boeing_deliveries": 30,
+            "embraer_orders": 15,
             "embraer_deliveries": 15
         },
         {
             "name": "May",
-            "airbus_orders": 63,
-            "airbus_deliveries": 53,
-            "boeing_orders": 39,
-            "boeing_deliveries": 30,
-            "embraer_orders": 12,
-            "embraer_deliveries": 6
+            "airbus_orders": 89,
+            "airbus_deliveries": 68,
+            "boeing_orders": 44,
+            "boeing_deliveries": 25,
+            "embraer_orders": 19,
+            "embraer_deliveries": 7
         }
     ],
     "geo": [
